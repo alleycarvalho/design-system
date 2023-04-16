@@ -11,6 +11,9 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  },
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
